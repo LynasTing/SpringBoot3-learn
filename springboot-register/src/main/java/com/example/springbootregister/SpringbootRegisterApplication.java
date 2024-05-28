@@ -18,8 +18,8 @@ public class SpringbootRegisterApplication {
 
   public static void main(String[] args) {
     ApplicationContext context = SpringApplication.run(SpringbootRegisterApplication.class, args);
-    Country country = context.getBean(Country.class);
-    System.out.println(country);
+    // Country country = context.getBean(Country.class);
+    // System.out.println(country);
 
     System.out.println(context.getBean("customerName"));
   }
