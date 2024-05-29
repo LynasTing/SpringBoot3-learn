@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/springboot-create-manual/pom.xml" />
         <option value="$PROJECT_DIR$/spring-mybatis/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-register/pom.xml" />
+        <option value="$PROJECT_DIR$/auto-config/pom.xml" />
       </list>
     </option>
   </component>
