@@ -25,8 +25,8 @@ public class MyBatisAutoConfig {
   public MapperScannerConfigurer mapperScannerConfigurer(BeanFactory beanFactory) {
     MapperScannerConfigurer msc = new MapperScannerConfigurer();
     // 扫描启动类所在的包及其子包
-    List<String> strings = AutoConfigurationPackages.get(beanFactory);
-    String p = strings.get(0);
+    List<String> packages = AutoConfigurationPackages.get(beanFactory);
+    String p = packages.get(0);
     msc.setBasePackage(p);
 
     // 扫描注解
